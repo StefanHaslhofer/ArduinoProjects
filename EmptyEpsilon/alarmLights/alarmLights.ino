@@ -1,7 +1,8 @@
 #include <Adafruit_NeoPixel.h>
+#include <DMXSerial.h>
 
 #define LED_PIN   6  // any PWM capable pin
-#define NUM_LEDS 150
+#define NUM_LEDS 20
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, LED_PIN, NEO_RGBW + NEO_KHZ800);
 

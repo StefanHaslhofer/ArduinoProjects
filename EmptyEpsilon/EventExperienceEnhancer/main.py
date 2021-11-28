@@ -10,3 +10,4 @@ def write_to_serial(x):
         arduino.open()
     print('writing to serial...')
     arduino.write(x.encode())
+

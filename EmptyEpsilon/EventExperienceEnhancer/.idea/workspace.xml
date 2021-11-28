@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dbf9f5a-5726-4369-b07d-879a481fb777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eventMap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LED_Linz/RoomLeds_Meteor/room_leds1.ino" beforeDir="false" />
+    <list default="true" id="4dbf9f5a-5726-4369-b07d-879a481fb777" name="Changes" comment="event experience enhancer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/eventMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alarmLights/alarmLights.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../alarmLights/alarmLights.ino" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638105109093</updated>
-      <workItem from="1638105110461" duration="325000" />
+      <workItem from="1638105110461" duration="1705000" />
     </task>
+    <task id="LOCAL-00001" summary="event experience enhancer">
+      <created>1638105511958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638105511958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,15 +93,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="event experience enhancer" />
+    <option name="LAST_COMMIT_MESSAGE" value="event experience enhancer" />
   </component>
 </project>
