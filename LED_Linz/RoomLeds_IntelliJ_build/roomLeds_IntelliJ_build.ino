@@ -13,13 +13,13 @@ void setup()
   strip.setBrightness(60); // set brightness to n%
   turnOffPixels();
   Serial.begin(9600);
-  Serial.write(45);
 }
 
 void loop()
 {
   while (!Serial.available());
   serialData = Serial.readString().toInt();
+  Serial.write(serialData);
   setLedsBasedOnSerialData(serialData);
 }
 
