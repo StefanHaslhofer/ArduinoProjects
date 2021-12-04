@@ -4,11 +4,13 @@
 #define NUM_LEDS 150
 
 int serialData;
+unsigned char dmx_buffer[512];
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, LED_PIN, NEO_RGBW + NEO_KHZ800);
 
 void setup()
 {
+
   strip.begin();
   strip.setBrightness(60); // set brightness to n%
   turnOffPixels();
@@ -17,10 +19,17 @@ void setup()
 
 void loop()
 {
+
+  
+  
   while (!Serial.available());
-  serialData = Serial.readString().toInt();
-  Serial.write(serialData);
-  setLedsBasedOnSerialData(serialData);
+  while(Serial.available()){
+    serialData = Serial.read();
+    Serial.println(serialData);
+  }
+  
+  
+  //setLedsBasedOnSerialData(2);
 }
 
 /*
