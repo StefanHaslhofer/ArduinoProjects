@@ -22,4 +22,4 @@ while True:
     if "YELLOW ALERT" in r.text:
         write_to_serial(3)
 
-    sleep(10)
+    sleep(3)
