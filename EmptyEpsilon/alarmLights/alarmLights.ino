@@ -1,5 +1,4 @@
 #include <Adafruit_NeoPixel.h>
-#include <DMXSerial.h>
 
 #define LED_PIN   6  // any PWM capable pin
 #define NUM_LEDS 20
@@ -31,8 +30,10 @@ void loop()
  */
 void setLedsBasedOnSerialData(byte serialData) {
   // 2 means build succeeded
-  if(serialData == 1) {
-    turnOnPixels(strip.Color(150, 0, 0));
+  if(serialData == 2) {
+    turnOnPixels(strip.Color(0, 150, 0));
+  } else if (serialData == 3) {
+    turnOnPixels(strip.Color(150, 150, 0));
   }
 
   delay(5000);
